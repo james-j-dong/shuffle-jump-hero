@@ -1,1 +1,7 @@
-<p>generate-embed works!</p>
+<div class = "generate-embed">
+  <h2>Generate Embed Code</h2>
+  <div class = "embed-code">
+    <label for="embed-code">Embed Code:</label>
+    <textarea id="embed-code" rows="4" cols="50" readonly>{{ embedCode }}</textarea>
+  </div>
+  <button (click)="copyToClipboard()">Copy to Clipboard</button>

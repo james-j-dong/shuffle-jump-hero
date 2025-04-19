@@ -1,0 +1,13 @@
+$max-width: 360px;
+$border-color: #ddd;
+
+.content-player-container {
+    max-width: $max-width;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid $border-color;
+    iframe {
+        width: 100%;
+        aspect-ratio: 9/16;
+    }
+}
